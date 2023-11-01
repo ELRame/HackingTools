@@ -9,7 +9,7 @@ In order to use wpscan for enumerate, first check if your wpscan is working, sin
 
 There could be several reasons why wpscan is not working, the one that fixed my problem was typing the following command:
 
-** gem install wpscan **
+**gem install wpscan**
 
 with that, wpscan ran without problems:
 
@@ -17,6 +17,6 @@ with that, wpscan ran without problems:
 
 And well, finally just run the command to scan the url or ip you want to scan.
 
-** wpscan --url ulr/ip **
+**wpscan --url ulr/ip**
 
 and done!
