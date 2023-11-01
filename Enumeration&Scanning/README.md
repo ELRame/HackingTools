@@ -1,14 +1,12 @@
 # NMAP for enumeration and scanning ports #
 
-### Enumeration ###
+## Enumeration ##
 
 Part of Reconnainsance, is the enumeration part which can show you hosts, SOs, versions and port status of a network you are trying to know. In this stage, most used tool is NMAP which is an enumeration and scanning tool that can allows you to gathered information of a network (and check for vulnerabilities, but this post is for enumeration and scanning host only).
 
 -----------------------
 
-**Hands on**
-
-NOTE: This information is only for educational purposes and is made considering you have at least a mininum knowledge to use the tool such as Linux basic commands and a proper lab or vulnerable machines environment were to practice these commands.
+### Hands on ###
 
 -----------------------
 
