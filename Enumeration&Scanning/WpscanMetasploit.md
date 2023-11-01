@@ -29,10 +29,16 @@ In order to test a bruteforce, you can use:
 
 **wpscan --url url/ip --usernames file --passwords file**
 
+If you already have the username you want to test, u can use de argument **-u** instead **--usernames**.
+
 and done!
 
 ------------------------------------
 
 ### Metasploit ###
 
-In case wpscan doesn't work, you can always relay on Metasploit, run it with **msfconsole** and 
+In case wpscan doesn't work and you need to enumerate users and perform a bruteforce test on users, you can always relay on Metasploit, run it with **msfconsole** and search the auxiliary which can be **use auxiliary/scanner/http/wordpress_login_enum**. 
+
+
+
+Make sure that after that, use command **show options** so you can see which are the fields you need to fill in order to execute the test.
