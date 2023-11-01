@@ -1,4 +1,4 @@
-## Wordpress and Wpscan ##
+## Wpscan or Metasploit Wordpress Enumeration ##
 ------------------------
 
 ### WPSCAN ###
@@ -19,4 +19,20 @@ And well, finally just run the command to scan the url or ip you want to scan.
 
 **wpscan --url ulr/ip**
 
+If for any reason you want to enumerate users, you can type the following command:
+
+**wpscan --url url/ip -e -u**
+
+This will ran the scan and gives you the information you need, also, if you want to check more arguments for your scans, you can always use **wpscan --help**.
+
+In order to test a bruteforce, you can use:
+
+**wpscan --url url/ip --usernames file --passwords file**
+
 and done!
+
+------------------------------------
+
+### Metasploit ###
+
+In case wpscan doesn't work, you can always relay on Metasploit, run it with **msfconsole** and 
