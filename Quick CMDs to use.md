@@ -41,7 +41,7 @@ If even this the above command is not working then use this command-  namp -f 10
 3- Crack FTP credentials using nmap-  nmap -p 21 10.10.10.10 (check if it is open or not)
 				      ftp 10.10.10.10 (To see if it is directly connecting or needing credentials)
 Then go to Desktop and in Ceh tools folder you will find wordlists, here you will find usernames and passwords file.
-Now in terminal type-  hydra -L /home/attacker/Desktop/CEH_TOOLS/Wordlists/Username.txt -P /home/attacker/Desktop/CEH_TOOLS/Wordlists/Password.txt ftp://10.10.10.10
+Now in terminal type-  hydra -L /home/attacker/Desktop/TEST/Wordlists/Username.txt -P /home/attacker/Desktop/TEST/Wordlists/Password.txt ftp://10.10.10.10
 
 hydra -l user -P passlist.txt ftp://10.10.10.10
 ```
