@@ -35,7 +35,7 @@ In order to test a bruteforce, you can use:
 
 ![image](https://github.com/ELRame/HackingTools/assets/82544416/f1299a91-01df-4bc1-99e6-8164f22f2ae8)
 
-If you already have the username you want to test, u can use de argument **-u** instead **--usernames**.
+If you already have the username you want to test, u can use the argument **-u** instead **--usernames**.
 
 and done!
 
