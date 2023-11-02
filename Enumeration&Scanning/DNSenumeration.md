@@ -24,8 +24,10 @@ Type: NS, MX, A, etc...
 Enumerate:
 
 ````
-host url
+host url/ip
 ````
+**ip**. If you use an ip can do a reverse lookup in order to find the domain.
+
 
 Specific type:
 
