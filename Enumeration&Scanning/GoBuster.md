@@ -27,3 +27,12 @@ vhost will perform a virtual host enumeration
 double - add domains to the dictionary 
 
 ![image](https://github.com/ELRame/HackingTools/assets/82544416/8081c8de-dab1-414a-9c5a-655aa56713f0)
+
+------------------------
+
+### Passive Reconnaissance ###
+
+Another way to try to recon subdomains, is making passive reconnaissance over certificates, for this you can use:
+
+https://crt.sh/
+https://search.censys.io/
