@@ -16,3 +16,13 @@ eg: **inrul:xxxxx.com filetype:pdf**
 
 **intitle:**
 Shows any results with the word specify on the title.
+
+-----------------------
+
+## Most used info
+
+**exploit-db**
+
+You can always look for usable dorks on: https://www.exploit-db.com/google-hacking-database
+
+Good Luck!
