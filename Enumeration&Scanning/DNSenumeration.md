@@ -7,7 +7,24 @@
 ````
 dnsrecon -d url -t axfr
 ````
+
 ------------------------
+
+### fierce
+
+````
+fierce --domain domain
+````
+
+------------------------
+
+### dnsenum
+
+````
+dnsenum url
+````
+
+-----------------------
 
 ### Nslookup
 
