@@ -68,6 +68,13 @@ UDP most known ports:
 
 Some scripts can be useful to run:
 
+***SMB enumeration***
+
+````
+sudo nmap --script smb-os-discovery.nse ip
+nmap -p 445 --script=smb-enum-shares.nse,smb-enumusers.nse ip
+````
+
 ***Dns Enumeration***
 
 ````
@@ -85,6 +92,11 @@ nmap -sU -p 137 --script nbstat.nse ip
 
 ### Summary ###
 
-Most of these commands can be used together in order to get more specific information, even more, you can use **-v** argument to get more details on the scan, and more vs you add, more details gonna show eg: **-vv**
+Most of these commands can be used together in order to get more specific information, even more, you can use **-v** argument to get more details on the scan, and more vs you add, more details gonna show eg: **-vv**.
+For scripts and automate some scans, you can always search for them, typing:
 
+````
+cd /usr/share/nmap/scripts; ls | grep service
+````
 
+Where service would be what you need, dns, netbios, etc...
