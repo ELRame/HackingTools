@@ -2,6 +2,27 @@
 
 --------------------------
 
+### Nslookup
+
+Enumerate:
+
+````
+nslookup url
+````
+
+Specific type:
+
+````
+nslookop
+````
+````
+set type=type
+````
+````
+url
+````
+
+--------------------------
 ### Dig
 
 Enumerate:
