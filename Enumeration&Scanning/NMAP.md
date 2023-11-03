@@ -30,6 +30,8 @@ Scan services version and SOs:
 
 This scan take more time, so chill and wait.
 
+Also you can use **nmap -sS -O ip/range** fot this scan.
+
 Aggresive scan:
 
 **nmap -A ip/range**: Scan a single or an ip range in aggresive mode, this will give you a lot of information, but can be detected more easily by security controls.
