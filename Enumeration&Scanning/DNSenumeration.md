@@ -14,13 +14,20 @@ Specific type:
 
 ````
 nslookop
-````
-````
 set type=type
-````
-````
 url
 ````
+
+Zone Transfer:
+
+````
+nslookop
+set type=ns
+server servername
+set type=any
+ls -d url
+````
+
 
 --------------------------
 ### Dig
@@ -39,6 +46,12 @@ dig type url
 
 Type: NS, MX, A, etc...
 
+Zone Transfer (before this, perform ns enumeration):
+
+````
+dig axfr url @servername
+````
+
 -----------------------
 ### Host
 
@@ -56,11 +69,12 @@ Specific type:
 host -t type url
 ````
 
-Zone Transfer (after perform normal enumeration):
+Zone Transfer (before this, perform ns enumeration):
 
 ````
-host -l url
+host -l url servername
 ````
+
 
 ![image](https://github.com/ELRame/HackingTools/assets/82544416/a90dfdf3-2260-4de5-8e13-979ce75167da)
 
