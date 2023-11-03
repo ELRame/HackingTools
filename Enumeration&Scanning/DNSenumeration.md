@@ -2,6 +2,13 @@
 
 --------------------------
 
+### DnsRecon
+
+````
+dnsrecon -d url -t axfr
+````
+------------------------
+
 ### Nslookup
 
 Enumerate:
