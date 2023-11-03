@@ -62,6 +62,12 @@ UDP most known ports:
 
 --------------------------
 
+### DNS brutefoce
+
+**nmap -p 53 --script dns-brute domain**
+
+---------------------------
+
 ### Summary ###
 
 Most of these commands can be used together in order to get more specific information, even more, you can use **-v** argument to get more details on the scan, and more vs you add, more details gonna show eg: **-vv**
