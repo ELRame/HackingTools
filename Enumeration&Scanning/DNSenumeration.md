@@ -25,6 +25,7 @@ nslookop
 set type=ns
 server servername
 set type=any
+url
 ls -d url
 ````
 
