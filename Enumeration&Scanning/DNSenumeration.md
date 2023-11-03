@@ -56,5 +56,11 @@ Specific type:
 host -t type url
 ````
 
+Zone Transfer (after perform normal enumeration):
+
+````
+host -l url
+````
+
 ![image](https://github.com/ELRame/HackingTools/assets/82544416/a90dfdf3-2260-4de5-8e13-979ce75167da)
 
