@@ -64,9 +64,22 @@ UDP most known ports:
 
 --------------------------
 
-### DNS brutefoce
+### Scripts
 
-**nmap -p 53 --script dns-brute domain**
+Some scripts can be useful to run:
+
+***Dns Enumeration***
+
+````
+nmap -p 53 --script dns-brute domain
+````
+
+***Netbios enumeration***
+
+````
+nmap -sV -v --script nbstat.nse ip
+nmap -sU -p 137 --script nbstat.nse ip
+````
 
 ---------------------------
 
