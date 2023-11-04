@@ -87,6 +87,12 @@ sudo nmap --script smb-os-discovery.nse ip
 nmap -p 445 --script=smb-enum-shares.nse,smb-enumusers.nse ip
 ````
 
+Even when this post is for nmap, you can always use enum4linux:
+
+````
+enum4linux -a ip
+````
+
 ***Dns Enumeration***
 
 ````
