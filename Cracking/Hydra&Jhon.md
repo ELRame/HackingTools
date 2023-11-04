@@ -1,4 +1,4 @@
-# Cracking passwords
+# Cracking/brute force passwords
 
 -------------------------------------
 
@@ -13,3 +13,15 @@ jhon -w="/usr/share/wordlists/rockyou.txt" file --format=NT
 ````
 
 Consider that -w argument sets the path file for your wordlist and file should be a txt file with the hash to crack inside.
+
+---------------------------------------------
+
+## Hydra
+
+**Quick command**
+
+To bruteforce a password for an especific user over ftp service:
+
+````
+hydra -l user -P /usr/share/wordlists/rockyou.txt -v ip ftp
+````
