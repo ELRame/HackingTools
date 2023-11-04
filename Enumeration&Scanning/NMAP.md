@@ -93,6 +93,8 @@ Even when this post is for nmap, you can always use enum4linux:
 enum4linux -a ip
 ````
 
+Remember to use ````smbclient //ip```` to connect after.
+
 ***Dns Enumeration***
 
 ````
