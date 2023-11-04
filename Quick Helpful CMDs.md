@@ -111,3 +111,11 @@ aircrack-ng -a2 -b [Target BSSID] -w [password_Wordlist.txt] [WP2 PCAP file] (Fo
 Check RDP enabled after getting ip- nmap -p 3389 -iL ip.txt | grep open (ip.txt contains all the alive hosts from target subnet)
 Check MySQL service running- nmap -p 3306 -iL ip.txt | grep open        (ip.txt contains all the alive hosts from target subnet)
 ```
+
+# Post exploitation
+
+To find flags inside a machine you already in:
+
+````
+search -f flag*
+````
