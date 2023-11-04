@@ -74,6 +74,12 @@ Some scripts can be useful to run:
 nmap -A -sC ip
 ````
 
+***Run script to find vulnerabilities on a host:***
+
+````
+sudo nmap --script vuln ip
+````
+
 ***SMB enumeration***
 
 ````
