@@ -68,6 +68,12 @@ UDP most known ports:
 
 Some scripts can be useful to run:
 
+***Run common scripts against a host***
+
+````
+nmap -A -sC ip
+````
+
 ***SMB enumeration***
 
 ````
