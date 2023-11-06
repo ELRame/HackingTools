@@ -31,3 +31,13 @@ Click on Import and select the CA certificate you downloaded from localhost:8080
 
 ![image](https://github.com/ELRame/HackingTools/assets/82544416/dee6979c-f3d2-4c25-90ba-bacc516264fc)
 
+![image](https://github.com/ELRame/HackingTools/assets/82544416/f17679b8-454d-4889-9adc-7411372a02f8)
+
+Check the first option and click on ok and it's done:
+
+![image](https://github.com/ELRame/HackingTools/assets/82544416/244f92b8-eab8-4be6-8280-2ab294b8824e)
+
+![image](https://github.com/ELRame/HackingTools/assets/82544416/8b75b9b3-bb84-424e-b526-7ce23c00a746)
+
+---------------------------------------
+
