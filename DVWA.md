@@ -20,9 +20,9 @@ With this in mind, and changing the difficulty on DVWA you can take a look at th
 
 ## File Upload
 
-File upload allows you to upload a malicious file into the dvwa directory, with a reverse meterpreter connection, you'll be able to run commands on it.
+File upload allows you to upload a malicious file into the dvwa directory, with a reverse meterpreter connection, you will be able to run commands on it.
 
-Run ````msfconsole```` and search for multi handler:
+Run msfconsole and search for multi handler:
 
 ![image](https://github.com/ELRame/HackingTools/assets/82544416/5e93e9b8-42cf-445a-80c3-fb1750c094a6)
 
