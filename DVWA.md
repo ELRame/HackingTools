@@ -58,3 +58,20 @@ After that, go to the url and the meterpreter session should be running:
 
 ### Medium Difficulty
 
+On medium, dvwa verify that the actual file is the type allowed, so for this we use burpsuite to intercept the traffic and change the type on the header before we forwarded to the browser.
+
+First go to the extension you have for proxy and select the one you already (or you should) set up, in this case i named it BurpSuite:
+
+![image](https://github.com/ELRame/HackingTools/assets/82544416/4d6e681e-dd19-4e64-8d92-2e4fc80afb50)
+
+After that, on BuprSuite go to **proxy** manu and turn on the intercept option:
+
+![image](https://github.com/ELRame/HackingTools/assets/82544416/1bbbdfdd-a2ef-4ec7-9748-e4e3b330ce05)
+
+Then go to upload the file and press upload, this make burpsuite pop up with the header, find the **type** and change it for ````image/jpeg````, then click in the **forward** button:
+
+![image](https://github.com/ELRame/HackingTools/assets/82544416/ad1f49b5-faa5-4a3e-96b7-fe3aba14750d)
+
+![image](https://github.com/ELRame/HackingTools/assets/82544416/9e996c60-524d-4abe-b6b7-7e5f89c1dfb8)
+
+Now just follow the same steps than the first example and you'll have a meterpreter session.
