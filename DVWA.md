@@ -30,7 +30,7 @@ Select the number 30 with ````use 30```` (multi/handler) and set the payload as 
 
 ![image](https://github.com/ELRame/HackingTools/assets/82544416/7e48c7ee-f1a0-4577-933c-d41c8c2290fc)
 
-Then type ````show options`````to get the fields you need to fill, in this case LHOST, which can be set with ````set LHOST youripmachine```` that in this case is **127.0.0.1** (localhost) since we are running dvwa in the same machine
+Then type ````show options```` to get the fields you need to fill, in this case LHOST, which can be set with ````set LHOST youripmachine```` that in this case is **127.0.0.1** (localhost) since we are running dvwa in the same machine
 
 ![image](https://github.com/ELRame/HackingTools/assets/82544416/dcbf1fde-19cd-404d-ae0e-bd91972b9b52)
 
