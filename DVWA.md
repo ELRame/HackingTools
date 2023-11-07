@@ -75,3 +75,65 @@ Then go to upload the file and press upload, this make burpsuite pop up with the
 ![image](https://github.com/ELRame/HackingTools/assets/82544416/9e996c60-524d-4abe-b6b7-7e5f89c1dfb8)
 
 Now just follow the same steps than the first example and you'll have a meterpreter session.
+
+------------------------------------
+
+## Brute Force
+
+To brute force credentials on dvwa we are goin to use BurpSuite and also Hydra:
+
+First set difficulty to low, go to bruteforce tab, and turno on your foxyproxy extension and Burpsuite intercept on, put any credentials and click on submit:
+
+![image](https://github.com/ELRame/HackingTools/assets/82544416/24b4ebac-1eb5-4d3d-8425-e7f4475eb154)
+
+Right click on burpsuite interception and choose sent to intruder. Once you get there, just clear the variables and select only the password:
+
+![image](https://github.com/ELRame/HackingTools/assets/82544416/d9d65d86-e592-4f30-81f7-c14b9fdf7f56)
+
+Then click on the payloads tab and load your wordlist:
+
+![image](https://github.com/ELRame/HackingTools/assets/82544416/68262b59-3f3c-4213-8263-41cd39856f7f)
+
+Click on Start attack and sort the information by asc length, the first one you found with different length, that's the password:
+
+![image](https://github.com/ELRame/HackingTools/assets/82544416/a823c154-2bca-496a-9a40-9ba0f189a1b6)
+
+And you are done
+
+**Hydra**
+
+````
+hydra -l admin -P /usr/share/wordlists/john.lst 'http-get-form://127.0.0.1:42001/vulnerabilities/brute/:username=^USER
+^&password=^PASS^&Login=Login:H=Cookie\:PHPSESSID=CookieSession; security=low:F=Username and/or
+password incorrect' -I
+````
+
+### High difficulty
+
+Here we need to follow the same steps until we sent the interception to the intruder, there, we change the attack type to "PitchFork" and select as target both password and user_token field:
+
+![image](https://github.com/ELRame/HackingTools/assets/82544416/0e63b203-9aa0-42dc-ba8e-81abd946413b)
+
+Select the wordlist and after that change the set payload:
+
+![image](https://github.com/ELRame/HackingTools/assets/82544416/b9fa4999-482e-477a-8df0-c7638ffb1020)
+
+Now go to Setting tab and go to Grep Extract option and click on add, there click on fetch response and look for the token, select it and click in ok button:
+
+![image](https://github.com/ELRame/HackingTools/assets/82544416/dc40bd3e-f1f8-4d48-91c4-a4c5767ca45b)
+
+In Grep Match option click on clear button and then add "Incorrect"
+
+![image](https://github.com/ELRame/HackingTools/assets/82544416/6b6f6f27-22e5-430f-98d2-fb1269ee4b46)
+
+Set Redirection option to Always:
+
+![image](https://github.com/ELRame/HackingTools/assets/82544416/559ec62c-f3c9-47c5-ade8-edc97e3c8692)
+
+After that, go to Resource Pool, add a new pool and set the limit to 1 and click on start attack:
+
+![image](https://github.com/ELRame/HackingTools/assets/82544416/7cdc21ae-d3ea-47c7-970d-1741e2e0e8e1)
+
+After this, should have the pass:
+
+![image](https://github.com/ELRame/HackingTools/assets/82544416/874b2e8b-637a-4a13-8116-54f8822ba545)
