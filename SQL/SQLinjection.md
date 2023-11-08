@@ -19,3 +19,15 @@ Same as low level on dvwa, the textbox has the same vulnerability, just that the
 ````
 1’ UNION SELECT user, password FROM users#
 ````
+
+-------------------------------------
+
+## Blind 
+
+Sometimes when the site doesn't show any information on a login page you can use blind injection, this mean just to try sql commands and see what happend, for example:
+
+````
+' OR 1=1 --
+````
+
+Where the double dash just comment all the following query in the execution when you submit it. 
