@@ -114,8 +114,13 @@ Check MySQL service running- nmap -p 3306 -iL ip.txt | grep open        (ip.txt 
 
 # Post exploitation
 
-To find flags inside a machine you already in:
+To find flags inside a machine you already in with meterpreter:
 
 ````
 search -f flag*
 ````
+
+## Linux cmds 
+
+mv: moves or remane a file
+gunzip: unzip a file
