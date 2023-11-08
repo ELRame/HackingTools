@@ -37,6 +37,14 @@ In order to test a bruteforce, you can use:
 
 If you already have the username you want to test, u can use the argument **-u** instead **--usernames**.
 
+Also if you want to enumerate for example plugins and users, you can add it to the query like this:
+
+````
+wpscan --url url/ip --enumerate p, u
+````
+
+Also can add templates with t.
+
 and done!
 
 ------------------------------------
