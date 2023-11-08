@@ -1,6 +1,10 @@
 ## SQLmap
 
-For this attack you should capture the request of an input parameter with burp. For this, you just have to intercept the request (login for example) and then just copy the request and save it in a txt file.
+For this attack you should capture the request of an input parameter with burp. For this, you just have to intercept the request (login for example) and then just copy the request and save it in a txt file and run sqlmap with:
+
+````
+sqlmap -r <burpsuite txt file> --dbs
+````
 
 
 ````
