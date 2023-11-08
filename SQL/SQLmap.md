@@ -4,7 +4,7 @@ For this attack you should capture the request of an input parameter with burp. 
 
 **Getting the cookie**
 
-To get cookies, you can do it inspecting the page, and then go to console, and in the bottom left type ````document.cookie````, hit enter and you'll get it.
+To get cookies, you can do it inspecting the page, then go to console and in the bottom left type ````document.cookie````, hit enter and you'll get it.
 
 ````
 sqlmap -r <burpsuite txt file> --dbs
