@@ -76,6 +76,22 @@ Then go to upload the file and press upload, this make burpsuite pop up with the
 
 Now just follow the same steps than the first example and you'll have a meterpreter session.
 
+### Cmd injection and upload file
+
+If you need to upload a file in this machine on high difficulty, you need to:
+
+1.- Generate the payload.
+2.- change the name of the file to one with jpeg extension.
+3.- with nano, edit the file and add in the first line: ````GIF89a;````
+4.- upload it.
+5.- with command injection change the name of the file:
+
+````
+| mv "/usr/share/dvwa/hackable/uploads/exploit.php.jpeg" "/usr/share/dvwa/hackable/uploads/exploit.php"
+````
+6.- set up metasploit to listen.
+7.- go to the file in the browser.
+
 ------------------------------------
 
 ## Brute Force
