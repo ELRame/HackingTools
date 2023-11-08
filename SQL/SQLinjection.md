@@ -31,3 +31,9 @@ Sometimes when the site doesn't show any information on a login page you can use
 ````
 
 Where the double dash just comment all the following query in the execution when you submit it. 
+
+If you need to add users on a site with blind injection, you can use:
+
+````
+xxxx';insert into <table> values ('user','pass'); --
+````
