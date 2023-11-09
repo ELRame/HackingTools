@@ -25,3 +25,14 @@ To bruteforce a password for an especific user over ftp service:
 ````
 hydra -l user -P /usr/share/wordlists/rockyou.txt -v ip ftp
 ````
+
+-----------------------------------------------
+
+## Aircrack-ng
+
+**Quick command for wireless cracking**
+
+````
+$ aircrack-ng '*/target file.cap*' -w */wordlist*
+````
+
