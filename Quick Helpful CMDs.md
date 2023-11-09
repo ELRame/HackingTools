@@ -131,3 +131,4 @@ search -f flag*
 
 **find . -name filename** to find a file
 
+**sha+valuehash+sum file**: to find a hash.
