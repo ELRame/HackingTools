@@ -1,6 +1,6 @@
 # Cracking Tools
 
-For crack hashes, you can use:
+For identify the type of hash and crack, you can use:
 
 https://hashes.com/en/decrypt/hash
 
