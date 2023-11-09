@@ -121,7 +121,13 @@ search -f flag*
 ````
 
 ## Linux cmds 
+------------------------------------------
 
 **mv**: moves or remane a file
+
 **gunzip** unzip a file
+
 **chmod 600** gives execution permissions
+
+**find . -name filename** to find a file
+
