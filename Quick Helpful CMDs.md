@@ -122,5 +122,6 @@ search -f flag*
 
 ## Linux cmds 
 
-mv: moves or remane a file
-gunzip: unzip a file
+**mv**: moves or remane a file
+**gunzip** unzip a file
+**chmod 600** gives execution permissions
